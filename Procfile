@@ -1,1 +1,1 @@
-web :gunicorn webnet.wsgi
+web: gunicorn webnet.wsgi
