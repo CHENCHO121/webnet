@@ -1,0 +1,92 @@
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    background: url("../img/logo2.0162a4b48c3d.jpeg");
+    background: url("../img/logo2.0162a4b48c3d.jpeg");
+
+}
+
+header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header.masthead .device-container .screen img {
+    border-radius: 3px;
+}
+
+section.cta {
+    position: relative;
+    padding: 250px 0;
+    background-image: url("../img/web5.7360e697fd4e.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home_img{
+    box-shadow: 5px 5px 30px 5px black;
+    transform: translateY(-10px);
+   transition:1.9s;
+   animation-delay: 5s;
+}
+
+.home_img:hover{
+  box-shadow: 5px 5px 30px 5px red;
+  transform: translateY(-30px);
+  transition:1.2s;
+  border-radius:50px;
+  animation-delay: 5s;
+}
+
+
+section.cta {
+    position: relative;
+    padding: 20px 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    background-image: url("../img/web5.7360e697fd4e.jpg");
+    background-position: center;
+    background-size: cover;
+}
+section {
+    padding: 0px 0;
+}
+
+section.download {
+    position: relative;
+    padding: 5px 0;
+}
+.f1{
+    box-shadow: 5px 5px 30px 5px black;
+    transform: translateY(-10px);
+    transition:1.9s;
+    animation-delay: 5s;
+}
