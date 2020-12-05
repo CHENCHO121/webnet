@@ -1,3 +1,8 @@
+*{
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif ' !important;
+}
+
+
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
@@ -18,8 +23,9 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px;
     color: white;
-    background: url("../img/logo2.jpeg");
-    background: url("../img/logo2.jpeg");
+    background-color: black;
+    /*background: url("../img/logo2.jpeg");*/
+    /*background: url("../img/logo2.jpeg");*/
 
 }
 
@@ -44,7 +50,7 @@ header.masthead .device-container .screen img {
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url(../img/web5.jpg);
+    /*background-image: url(../img/web5.jpg);*/
     background-position: center;
     background-size: cover;
 }
@@ -72,7 +78,7 @@ section.cta {
     padding-right: 0px;
     padding-bottom: 10px;
     padding-left: 0px;
-    background-image: url(../img/web5.jpg);
+    /*background-image: url(../img/web5.jpg);*/
     background-position: center;
     background-size: cover;
 }
@@ -147,9 +153,7 @@ section {
     padding: 100px 0;
 }
 
-section h2 {
-    font-size: 50px;
-}
+
 
 #mainNav {
     border-color: rgba(34, 34, 34, 0.05);
@@ -178,7 +182,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a {
-    font-size: 11px;
+    font-size: 18px;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -477,3 +481,21 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 
+
+.device-mockup>.device {
+    position: absolute;
+    top: 6rem !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30rem !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*background-image: url(macbook/macbook.png);*/
+}
+
+.h1, h1 {
+     font-size: 18px !important;
+    font-weight: bolder;
+}

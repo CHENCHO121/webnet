@@ -64,7 +64,7 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><h2 style="font-weight: bolder">WebNet</h2></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
+                aria-label="Toggle navigation" style="font-size: 18px">
             Menu
             <i class="fas fa-bars"></i>
         </button>
@@ -101,16 +101,18 @@
         <div class="row h-100">
             <div class="col-lg-7 my-auto">
                 <div class="header-content mx-auto">
+                    <h1 class="text-white text-capitalize font-weight-bolder home_img"
+                        style="font-size: 50px !important;">better solution for your business</h1>
+                    <p class="text-white text-capitalize">we make beautiful things</p>
                 </div>
             </div>
             <div class="col-lg-5 my-auto">
                 <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white home_img">
+                    <div class="device-mockup iphone6_plus portrait white">
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img class="home_img img-fluid" src="{% static 'img/logo2.jpeg' %}" class="img-fluid"
-                                     alt="">
+                                <img class="img-fluid home_img" src="{% static 'img/logo2.jpeg' %}" alt="">
                             </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -131,9 +133,8 @@
         <div class="row">
             <div class="col-md-5 col-lg-5 mt-5">
                 <h1>Experience Digital and Beyond</h1>
-                <p class="text-justify">Experts in Web Development & Web Design, Mobile Application, Logo Design,
-                    Desktop Software &
-                    specializing in System Software</p>
+                <p>Experts in Web Development & Web Design,Mobile Application,Logo Design,Desktop
+                    Software & specializing in System Software</p>
             </div>
             <div class="col-lg-7 col-md-7 pb-5">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -173,21 +174,26 @@
             </div>
         </div>
         <br/><br/>
-        <h2>Expertise</h2>
-        <p>A typical technology stack, comprising of different components or services, useful for developing software
+        <h2 style="font-size: 50px!important;">Expertise</h2>
+        <p class="font-weight-bolder">A typical technology stack, comprising of different components or services, useful
+            for developing software
             solutions.</p>
         <br/>
         <div class="row">
             <div class="col-md-3 col-lg-3  mt-5">
                 <h3><strong>Our Stack</strong></h3>
-                <p>Open Source </p>
-                <p>Mobile Programming</p>
-                <p>Web Programing</p>
-                <p>Desktop App Programming</p>
-                <p>Database</p>
+                <ul style="font-size: 18px">
+                    <li>Open Source</li>
+                    <li>Mobile Programming</li>
+                    <li>Web Programing</li>
+                    <li>Desktop App Programming</li>
+                    <li>Database</li>
+                </ul>
+
+
             </div>
             <div class="col-md-4 col-lg-4  mt-5">
-                <p class="text-justify">
+                <p class="text-center">
                     With a framework being the backbone for any development, it becomes crucial to
                     have an independent, robust architecture, consisting of high – performance programming languages
                     suitable for web, mobile & desktop app development.
@@ -222,29 +228,29 @@
             </div>
 
         </div>
-        <h2 class="text-center">We Make Beautiful Things</h2>
+        <h2 class="text-center" style="font-size: 50px!important;">We Make Beautiful Things</h2>
         <p class="text-center">Be Part Of Our Story</p>
         <br/>
         <div class="row">
             <div class="col-lg-4 col-md-4 mt-5">
-                <img class="home_img" src="{% static 'img/m1.jpg' %}" alt="img1" height="380" width="370"/>
+                <img class="home_img img-fluid" src="{% static 'img/m1.jpg' %}" alt="img1"/>
             </div>
             <div class="col-lg-4 col-md-4 mt-5">
-                <img class="home_img" src="{% static 'img/m2.jpg' %}" alt="img2" height="380" width="370"/>
+                <img class="home_img img-fluid" src="{% static 'img/m2.jpg' %}" alt="img2"/>
 
             </div>
             <div class="col-lg-4 col-md-4 pb-5 mt-5 ">
-                <img class="home_img" src="{% static 'img/m3.jpg' %}" alt="img3" height="380" width="370"/>
+                <img class="home_img img-fluid" src="{% static 'img/m3.jpg' %}" alt="img3"/>
 
             </div>
 
         </div>
-        <h2 class="text-center">Testimony</h2>
-        <div class="row mt-5 bg-primary">
+        <h2 class="text-center" style="font-size: 50px!important;">Testimony</h2>
+        <div class="row mt-5" style="background-color:white">
             <div class="col-md-4 col-lg-4">
-                <h3 style="font-size: 35px;font-weight: bolder; color: white;margin-top: 60px"><strong>Clients
+                <h3 style="font-size: 35px;font-weight: bolder; color: black;margin-top: 60px"><strong>Clients
                     Talk</strong></h3>
-                <p class="text-white">Here’s to what our clients have to say about us</p>
+                <p class="text-dark" style="font-style: italic">Here’s to what our clients have to say about us</p>
             </div>
             <!--carousel-->
             <div class="col-md-8 col-lg-8 home_img">
@@ -257,69 +263,69 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <p class="d-block w-100 text-white mt-5">
-                                We have been glad to be associated with WebNet, as they have always been up to our
+                            <p class="d-block text-dark mt-5">
+                                " We have been glad to be associated with WebNet, as they have always been up to our
                                 expectations in terms of delivery, commitment & quality. Right from understanding what
                                 we need and when can we get it delivered, WebNet has always been committed to attain
                                 real time targets. Being honest and offering us the best of what we want, we are
                                 satisfied with what we have got from them. We are glad to refer them to others for
-                                delivering good quality work excellence and achieving them.
+                                delivering good quality work excellence and achieving them."
 
                             </p>
-                            <h3 class="text-white"><strong>Deep Chettri</strong></h3>
-                            <p class="text-white pb-5">Siliguri-INDIA</p>
+                            <h3 class="text-dark"><strong>Deep Chettri</strong></h3>
+                            <p class="text-dark pb-5">Siliguri-INDIA</p>
 
                         </div>
                         <div class="carousel-item">
-                            <p class="d-block w-100 text-white mt-5">
-                                WebNet – their work speaks everything for me! Right from our very 1st meeting, I am
+                            <p class="d-block w-100 text-dark mt-5">
+                                "WebNet – their work speaks everything for me! Right from our very 1st meeting, I am
                                 more than satisfied with their philosophy of being honest and communicating clear &
                                 concise ideas. Being open for suggesting & receiving ideas, patiently listening to what
                                 the client has to say, makes them a reliable & dependent partner to work with. At any
                                 given time, any query that needs to be resolved is done on an immediate basis, with the
                                 deliverables quick on time with utmost efficiency & transparency, makes WebNet our
-                                trusted Technology Partner.
+                                trusted Technology Partner."
 
                             </p>
-                            <h3 class="text-white"><strong>Christina Brena</strong></h3>
-                            <p class="text-white pb-5">Oslo-Norway</p>
+                            <h3 class="text-dark"><strong>Christina Brena</strong></h3>
+                            <p class="text-dark pb-5">Oslo-Norway</p>
                         </div>
                         <div class="carousel-item">
-                            <p class="d-block w-100 text-white mt-5">
-                                It’s a sheer pleasure to be associated with their team. Right from the very beginning,
+                            <p class="d-block w-100 text-dark mt-5">
+                                "It’s a sheer pleasure to be associated with their team. Right from the very beginning,
                                 when I got a call and our very 1st meeting, we realized that we both had similar goals
                                 and were closely aligned with the core competencies of our respective organizations.
                                 Their proposal met our expectations and thus begun our association! Our technical team
                                 is amazed at the excellent work deliverable by WebNet & their team. We are indeed glad
-                                to be working with such a wonderful organization!
+                                to be working with such a wonderful organization!"
 
                             </p>
-                            <h3 class="text-white"><strong>Thinley Dorji</strong></h3>
-                            <p class="text-white pb-5">Thimphu-Bhutan</p>
+                            <h3 class="text-dark"><strong>Thinley Dorji</strong></h3>
+                            <p class="text-dark pb-5">Thimphu-Bhutan</p>
                         </div>
                         <div class="carousel-item">
-                            <p class="d-block w-100 text-white mt-5">
-                                We, at Doctor's Pharmacy are happy to be associated with WebNet and have chosen them
+                            <p class="d-block w-100 text-dark mt-5">
+                                "We, at Doctor's Pharmacy are happy to be associated with WebNet and have chosen them
                                 as our preferred vendor. We were impressed by the credentials of the leadership team,
                                 clientele and their range of technical expertise. WebNet has done a job beyond our
                                 expectation for the management app. This mobile app gives a 360 degree panoramic view
                                 for our Pharmacy’s Financial and Operational status to the top management of our
                                 Pharmacy on a click of a button. They have a sound technical team and were able to
                                 understand and absorb the scope of work given to them by our team and deliver the
-                                project on a time. We look forward to engage with WebNet for our upcoming projects.
+                                project on a time. We look forward to engage with WebNet for our upcoming projects."
                             </p>
-                            <h3 class="text-white"><strong>Rahul Das</strong></h3>
-                            <p class="text-white pb-5">Bangalore-INDIA</p>
+                            <h3 class="text-dark"><strong>Rahul Das</strong></h3>
+                            <p class="text-dark pb-5">Bangalore-INDIA</p>
                         </div>
 
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
+                        <span class="sr-only text-dark">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                        <span class="sr-only text-dark">Next</span>
                     </a>
                 </div>
 
@@ -328,7 +334,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-md-12 col-lg-12">
-                <img class="home_img img-fluid" src="{% static 'img/skills.png' %}" alt="">
+                <img class="img-fluid" src="{% static 'img/skills.png' %}" alt="">
             </div>
 
         </div>
@@ -340,95 +346,75 @@
 <section class="features mt-5" id="features">
     <div class="container">
         <div class="section-heading text-center">
-            <h2>Service & Unlimited Features</h2>
+            <h2 style="font-size: 50px!important;">Service & Unlimited Features</h2>
             <p class="text-muted">We provide the best quality of services!</p>
             <hr>
         </div>
         <div class="row">
-            <div class="col-lg-4 my-auto">
-                <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white home_img">
-                        <div class="device">
-                            <div class="screen">
-                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="{% static 'img/logo2.jpeg' %}" class="img-fluid home_img" alt="">
-                            </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 mt-5">
+                        <div class="feature-item home_img" style="background-color:lightgray">
+                            <i class="icon-screen-smartphone text-primary"></i>
+                            <h3 class="text-white">App Development</h3>
+                            <p class="text-white">We can developed a user friendly mobile app for your business.
+                                Any type of mobile app we can developed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-5">
+                        <div class="feature-item home_img" style="background-color: lightgray">
+                            <i class="icon-screen-desktop text-primary"></i>
+                            <h3 class="text-white">Desktop Software</h3>
+                            <p class="text-white">
+                                We can developed a standalone software, which is also known as a desktop software
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-5">
+                        <div class="feature-item home_img text-white" style="background-color:lightgray">
+                            <i class="icon-social-google text-primary"></i>
+                            <h3>Web Development</h3>
+                            <p class="text-white">
+                                We can developed any type of website for business.Website such as Static & Dynamic
+                                and
+                                also we can develop a E-commerce website.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-5">
+                        <div class="feature-item home_img" style="background-color: lightgray">
+                            <i class="icon-settings text-primary"></i>
+                            <h3 class="text-white">System Software</h3>
+                            <p class="text-white">
+                                We can developed a web base software, example Inventory management system,
+                                Document management system etc.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-5">
+                        <div class="feature-item home_img" style="background-color: lightgray">
+                            <i class="icon-camrecorder text-primary"></i>
+                            <h3 class="text-white">Video Editing</h3>
+                            <p class="text-white">
+                                We can do any type of video editing and video shooting and also making a albums.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-5">
+                        <div class="feature-item home_img" style="background-color: lightgray">
+                            <i class="icon-printer text-primary"></i>
+                            <h3 class="text-white">Logo Design (Graphic Design)</h3>
+                            <p class="text-white">
+                                We can design any type of logo and banner of any type of business.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 my-auto">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 mt-5">
-                            <div class="feature-item home_img">
-                                <i class="icon-screen-smartphone text-primary"></i>
-                                <h3>App Development</h3>
-                                <p class="text-muted">We can developed a user friendly mobile app for your business.
-                                    Any type of mobile app we can developed.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mt-5">
-                            <div class="feature-item home_img">
-                                <i class="icon-screen-desktop text-primary"></i>
-                                <h3>Desktop Software</h3>
-                                <p class="text-muted">
-                                    We can developed a standalone software, which is also known as a desktop software
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 mt-5">
-                            <div class="feature-item home_img">
-                                <i class="icon-social-google text-primary"></i>
-                                <h3>Web Development</h3>
-                                <p class="text-muted">
-                                    We can developed any type of website for business.Website such as Static & Dynamic
-                                    and
-                                    also we can develop a E-commerce website.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mt-5">
-                            <div class="feature-item home_img">
-                                <i class="icon-settings text-primary"></i>
-                                <h3>System Software</h3>
-                                <p class="text-muted">
-                                    We can developed a web base software, example Inventory management system,
-                                    Document management system etc.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mt-5">
-                            <div class="feature-item home_img">
-                                <i class="icon-camrecorder text-primary"></i>
-                                <h3>Video Editing</h3>
-                                <p class="text-muted">
-                                    We can do any type of video editing and video shooting and also making a albums.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mt-5">
-                            <div class="feature-item home_img">
-                                <i class="icon-printer text-primary"></i>
-                                <h3>Logo Design (Graphic Design)</h3>
-                                <p class="text-muted">
-                                    We can design any type of logo and banner of any type of business.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
-        </div>
-
-
-    </div>
 </section>
 
 <!--about us-->
@@ -439,7 +425,10 @@
             <h2 class="section-heading text-uppercase">About Us</h2>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6">
+             <div class="col-lg-4 col-md-4 mt-5 pb-5">
+                <img src="{% static 'img/logo2.jpg' %}" alt="" height="300px" width="300px"/>
+            </div>
+            <div class="col-lg-8 col-md-8">
                 <p class="text-justify mt-5">
                     <strong class="text-danger"> WebNet </strong>is a development of web based software,desktop
                     software, mobile app (application),
@@ -449,15 +438,13 @@
                 </p>
             </div>
 
-            <div class="col-lg-6 col-md-6 mt-5 pb-5">
-                <img class="img-fluid home_img" src="{% static 'img/logo2.jpeg' %}" alt=""/>
-            </div>
 
-            <div class="col-lg-6 col-md-6">
-                <p class="text-justify mt-5">
+
+            <div class="col-lg-4 col-md-4">
+                <p class="mt-5">
                     <strong class="text-danger"> Our Specialties- </strong>
                 </p>
-                <ol>
+                <ol style="font-size: 18px;">
                     <li>Online management system software</li>
                     <li>Desktop software (offline)</li>
                     <li>Application(app) development</li>
@@ -467,8 +454,8 @@
                 </ol>
             </div>
 
-            <div class="col-lg-6 col-md-6">
-                <img class="img-fluid home_img" src="{% static 'img/logo.jpeg' %}" alt=""/>
+            <div class="col-lg-8 col-md-8">
+                <img class="img-fluid" src="{% static 'img/logo.jpeg' %}" alt=""/>
             </div>
 
 
@@ -552,37 +539,95 @@
     </div>
 </section>
 
-<section class="cta" id="project">
+<section class="cta pb-5" id="project">
     <div class="cta-content">
         <div class="container">
-            <h2 class="text-warning">Our Recent.<br>Built Projects.</h2>
+            <h1 class="text-dark" style="font-size: 50px !important;">Our Recent</h1>
+            <h3>Built Projects.</h3>
+            <br/>
+            <br/>
             <div class="row">
-                <div class="col-md-6 col-lg-6 pb-5">
-                    <img class="home_img" src="{% static 'img/p1.png' %}" alt="" height="500" width="100%"/>
-                </div>
-                <div class="col-md-6 col-lg-6 pb-5">
-                    <img class="home_img" src="{% static 'img/p2.png' %}" alt="" height="500" width="100%"/>
-                </div>
-                <div class="col-md-6 col-lg-6 pb-5">
-                    <img class="home_img" src="{% static 'img/p3.png' %}" alt="" height="500" width="100%"/>
-                </div>
-                <div class="col-md-6 col-lg-6 pb-5">
-                    <img class="home_img" src="{% static 'img/p4.png' %}" alt="" height="500" width="100%"/>
-                </div>
-                <div class="col-md-6 col-lg-6 pb-5">
-                    <img class="home_img" src="{% static 'img/p5.png' %}" alt="" height="500" width="100%"/>
-                </div>
-                <div class="col-md-6 col-lg-6 pb-5">
-                    <img class="home_img" src="{% static 'img/p6.png' %}" alt="" height="500" width="100%"/>
-                </div>
-                <div class="col-md-6 col-lg-6 pb-5">
-                    <img class="home_img" src="{% static 'img/p7.png' %}" alt="" height="500" width="100%"/>
-                </div>
-                <div class="col-md-6 col-lg-6 pb-5">
-                    <img class="home_img" src="{% static 'img/p8.png' %}" alt="" height="500" width="100%"/>
+                <div class="col-md-12 col-lg-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="{% static 'img/p1.png' %}" class="d-block img-fluid" alt="...">
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="{% static 'img/p2.png' %}" class="d-block  img-fluid" alt="...">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="{% static 'img/p3.png' %}" class="d-block img-fluid" alt="...">
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="{% static 'img/p4.png' %}" class="d-block  img-fluid" alt="...">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="{% static 'img/p5.png' %}" class="d-block img-fluid" alt="...">
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="{% static 'img/p6.png' %}" class="d-block  img-fluid" alt="...">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="{% static 'img/p7.png' %}" class="d-block img-fluid" alt="...">
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="{% static 'img/p8.png' %}" class="d-block  img-fluid" alt="...">
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                           data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                           data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
                 </div>
 
             </div>
+
         </div>
     </div>
 
@@ -619,33 +664,33 @@
         <div class="row mt-5 pb-5">
             <div class="col-lg-6 col-md-6 mt-5">
                 <p>
-                    <a class="text-white" href="mailto:webnets2020@gmail.com">
+                    <a class="text-dark" href="mailto:webnets2020@gmail.com">
                         <i class="fa fa-envelope-square"></i> webnets2020@gmail.com
                     </a>
                 </p>
                 <p>
-                    <a class="text-white" href="tel:+97517611798">
+                    <a class="text-dark" href="tel:+97517611798">
                         <i class="fa fa-phone"></i>
                         (+975) 17611798
                     </a>
                 </p>
                 <p>
-                    <a class="text-white" href="tel:+97517585081">
+                    <a class="text-dark" href="tel:+97517585081">
                         <i class="fa fa-phone"></i>
                         (+975) 17585081
                     </a>
                 </p>
 
-                <p class="mt-3 text-white">
+                <p class="mt-3 text-dark">
                     <i class="fa fa-map-marker text-white"></i>
                     Thimphu, Main Town behind Bank of Bhutan
                 </p>
             </div>
 
             <div class="col-lg-6 col-md-6">
-                <form class="needs-validation f1 pb-3 bg-secondary" method="post">
+                <form class="needs-validation f1 pb-3 bg-primary" method="post">
                     {% csrf_token %}
-                    <div class="form-row text-white font-weight-bolder mt-5">
+                    <div class="form-row text-dark font-weight-bolder mt-5">
                         <div class="col-md-6 mb-3">
                             <label for="name">Your Name</label>
                             <input type="text" class="form-control" id="name" name="name" required>
@@ -661,14 +706,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-row text-white font-weight-bolder">
+                    <div class="form-row text-dark font-weight-bolder">
                         <div class="col-md-12 mb-3">
                             <label for="no">Contact Number</label>
                             <input type="tel" class="form-control" id="no" name="phone" required>
 
                         </div>
                     </div>
-                    <div class="form-row text-white font-weight-bolder">
+                    <div class="form-row text-dark font-weight-bolder">
                         <div class="col-md-12 mb-3">
                             <label for="msg">Message</label>
                             <textarea class="form-control" id="msg" name="message" required></textarea>
