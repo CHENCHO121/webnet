@@ -108,9 +108,7 @@ body {
     height: 100%;
 }
 
-body {
-    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-}
+
 
 a {
     color: #fdcc52;
@@ -499,3 +497,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
      font-size: 18px !important;
     font-weight: bolder;
 }
+
+/*font awesome icon*/
+
+
