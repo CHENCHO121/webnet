@@ -5,12 +5,14 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="5+ year experienced web development company in Thimphu-Bhutan, best web design company in Thimphu-Bhutan, a super team of website designers, web developers &amp; SEO analyst at WebNet">
+    <meta name="description"
+          content="5+ year experienced web development company in Thimphu-Bhutan, best web design company in Thimphu-Bhutan, a super team of website designers, web developers &amp; SEO analyst at WebNet">
     <meta name="author" content="">
-    <meta name="keywords" content="Web Design Company in Thimphu-Bhutan, Website Development Company in Thimphu-Bhutan, Best Web Development Company, Web Development Company in Thimphu-Bhutan, web development Thimphu-Bhutan, Website desinger, web developer, SEO analyst, Digital Marketing Company">
+    <meta name="keywords"
+          content="Web Design Company in Thimphu-Bhutan, Website Development Company in Thimphu-Bhutan, Best Web Development Company, Web Development Company in Thimphu-Bhutan, web development Thimphu-Bhutan, Website desinger, web developer, SEO analyst, Digital Marketing Company">
     <meta property="og:title" content="Web design &amp; web development company in Thimphu,Bhutan- WebNet">
     <title>
-	 Web Design &amp; Web Development &amp; Mobile App Development Company in Thimphu, Bhutan
+        Web Design &amp; Web Development &amp; Mobile App Development Company in Thimphu, Bhutan
     </title>
     <meta name="author" content="Chencho - Founder WebNet">
     <meta name="geo.placename" content="Thimphu Bhutan">
@@ -18,9 +20,20 @@
     <meta name="revisit-after" content="7 days">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.webnet.technology/">
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-115022721-1"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-184823100-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-184823100-1');
+    </script>
 
 
     <!-- Bootstrap core CSS -->
@@ -38,7 +51,7 @@
     <link rel="stylesheet" href="{% static 'device-mockups/device-mockups.min.css' %}">
 
     <!-- Custom styles for this template -->
-{#    <link href="{% static 'css/new-age.min.css' %}" rel="stylesheet">#}
+    {#    <link href="{% static 'css/new-age.min.css' %}" rel="stylesheet">#}
     <link href="{% static 'css/mystyle.css' %}" rel="stylesheet">
 
 </head>
@@ -750,24 +763,24 @@
     $(function () {
         $('[data-toggle="popover"]').popover()
     });
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function () {
-            'use strict';
-            window.addEventListener('load', function () {
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-                // Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (form.checkValidity() === false) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
-        })();
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
 </script>
 
 </body>
