@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.urls import reverse
 class Contact(models.Model):
     name=models.CharField(max_length=30)
     email=models.EmailField(max_length=50)
@@ -9,3 +9,6 @@ class Contact(models.Model):
         return self.name
     class Meta:
         verbose_name = 'Contact'
+
+    def get_absolute_url(self):
+        return reverse('home')
